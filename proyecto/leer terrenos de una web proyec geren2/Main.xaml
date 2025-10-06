@@ -1,0 +1,150 @@
+<Activity mc:Ignorable="sap sap2010" x:Class="Main" VisualBasic.Settings="{x:Null}" sap2010:WorkflowViewState.IdRef="ActivityBuilder_1" xmlns="http://schemas.microsoft.com/netfx/2009/xaml/activities" xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" xmlns:sap="http://schemas.microsoft.com/netfx/2009/xaml/activities/presentation" xmlns:sap2010="http://schemas.microsoft.com/netfx/2010/xaml/activities/presentation" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=System.Private.CoreLib" xmlns:sco="clr-namespace:System.Collections.ObjectModel;assembly=System.Private.CoreLib" xmlns:sd="clr-namespace:System.Data;assembly=System.Data.Common" xmlns:ui="http://schemas.uipath.com/workflow/activities" xmlns:uix="http://schemas.uipath.com/workflow/activities/uix" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <TextExpression.NamespacesForImplementation>
+    <sco:Collection x:TypeArguments="x:String">
+      <x:String>System.Activities</x:String>
+      <x:String>System.Activities.Statements</x:String>
+      <x:String>System.Activities.Expressions</x:String>
+      <x:String>System.Activities.Validation</x:String>
+      <x:String>System.Activities.XamlIntegration</x:String>
+      <x:String>Microsoft.VisualBasic</x:String>
+      <x:String>Microsoft.VisualBasic.Activities</x:String>
+      <x:String>System</x:String>
+      <x:String>System.Collections</x:String>
+      <x:String>System.Collections.Generic</x:String>
+      <x:String>System.Collections.ObjectModel</x:String>
+      <x:String>System.Data</x:String>
+      <x:String>System.Diagnostics</x:String>
+      <x:String>System.Drawing</x:String>
+      <x:String>System.IO</x:String>
+      <x:String>System.Linq</x:String>
+      <x:String>System.Net.Mail</x:String>
+      <x:String>System.Xml</x:String>
+      <x:String>System.Xml.Linq</x:String>
+      <x:String>UiPath.Core</x:String>
+      <x:String>UiPath.Core.Activities</x:String>
+      <x:String>System.Windows.Markup</x:String>
+      <x:String>GlobalVariablesNamespace</x:String>
+      <x:String>GlobalConstantsNamespace</x:String>
+      <x:String>System.Runtime.Serialization</x:String>
+      <x:String>UiPath.UIAutomationNext.Enums</x:String>
+      <x:String>UiPath.UIAutomationCore.Contracts</x:String>
+      <x:String>UiPath.UIAutomationNext.Models</x:String>
+      <x:String>UiPath.UIAutomationNext.Activities</x:String>
+      <x:String>UiPath.Shared.Activities</x:String>
+      <x:String>UiPath.Platform.ObjectLibrary</x:String>
+      <x:String>UiPath.Platform.SyncObjects</x:String>
+      <x:String>System.ComponentModel</x:String>
+      <x:String>System.Xml.Serialization</x:String>
+      <x:String>UiPath.UIAutomationNext.Models.ExtractData</x:String>
+      <x:String>System.Reflection</x:String>
+      <x:String>UiPath.Excel</x:String>
+      <x:String>UiPath.Platform.ResourceHandling</x:String>
+      <x:String>UiPath.Excel.Activities</x:String>
+      <x:String>System.Linq.Expressions</x:String>
+    </sco:Collection>
+  </TextExpression.NamespacesForImplementation>
+  <TextExpression.ReferencesForImplementation>
+    <sco:Collection x:TypeArguments="AssemblyReference">
+      <AssemblyReference>Microsoft.VisualBasic</AssemblyReference>
+      <AssemblyReference>mscorlib</AssemblyReference>
+      <AssemblyReference>PresentationCore</AssemblyReference>
+      <AssemblyReference>PresentationFramework</AssemblyReference>
+      <AssemblyReference>System</AssemblyReference>
+      <AssemblyReference>System.Activities</AssemblyReference>
+      <AssemblyReference>System.ComponentModel.TypeConverter</AssemblyReference>
+      <AssemblyReference>System.Core</AssemblyReference>
+      <AssemblyReference>System.Data</AssemblyReference>
+      <AssemblyReference>System.Data.Common</AssemblyReference>
+      <AssemblyReference>System.Data.DataSetExtensions</AssemblyReference>
+      <AssemblyReference>System.Drawing</AssemblyReference>
+      <AssemblyReference>System.Drawing.Common</AssemblyReference>
+      <AssemblyReference>System.Drawing.Primitives</AssemblyReference>
+      <AssemblyReference>System.Linq</AssemblyReference>
+      <AssemblyReference>System.Net.Mail</AssemblyReference>
+      <AssemblyReference>System.ObjectModel</AssemblyReference>
+      <AssemblyReference>System.Private.CoreLib</AssemblyReference>
+      <AssemblyReference>System.Xaml</AssemblyReference>
+      <AssemblyReference>System.Xml</AssemblyReference>
+      <AssemblyReference>System.Xml.Linq</AssemblyReference>
+      <AssemblyReference>UiPath.System.Activities</AssemblyReference>
+      <AssemblyReference>UiPath.UiAutomation.Activities</AssemblyReference>
+      <AssemblyReference>WindowsBase</AssemblyReference>
+      <AssemblyReference>UiPath.Studio.Constants</AssemblyReference>
+      <AssemblyReference>System.Private.ServiceModel</AssemblyReference>
+      <AssemblyReference>System.Private.DataContractSerialization</AssemblyReference>
+      <AssemblyReference>System.Runtime.Serialization.Formatters</AssemblyReference>
+      <AssemblyReference>System.Runtime.Serialization.Primitives</AssemblyReference>
+      <AssemblyReference>UiPath.UIAutomationNext</AssemblyReference>
+      <AssemblyReference>UiPath.UIAutomationCore</AssemblyReference>
+      <AssemblyReference>UiPath.UIAutomationNext.Activities</AssemblyReference>
+      <AssemblyReference>UiPath.OCR.Activities</AssemblyReference>
+      <AssemblyReference>UiPath.Platform</AssemblyReference>
+      <AssemblyReference>System.ComponentModel.EventBasedAsync</AssemblyReference>
+      <AssemblyReference>System.ComponentModel</AssemblyReference>
+      <AssemblyReference>System.ComponentModel.Primitives</AssemblyReference>
+      <AssemblyReference>System.Private.Xml</AssemblyReference>
+      <AssemblyReference>System.Reflection.DispatchProxy</AssemblyReference>
+      <AssemblyReference>System.Reflection.TypeExtensions</AssemblyReference>
+      <AssemblyReference>System.Reflection.Metadata</AssemblyReference>
+      <AssemblyReference>System.Reflection.MetadataLoadContext</AssemblyReference>
+      <AssemblyReference>UiPath.Excel.Activities.Design</AssemblyReference>
+      <AssemblyReference>UiPath.Excel.Activities</AssemblyReference>
+      <AssemblyReference>UiPath.Excel</AssemblyReference>
+      <AssemblyReference>System.Console</AssemblyReference>
+      <AssemblyReference>System.Security.Permissions</AssemblyReference>
+      <AssemblyReference>System.Configuration.ConfigurationManager</AssemblyReference>
+      <AssemblyReference>System.Memory</AssemblyReference>
+      <AssemblyReference>System.Private.Uri</AssemblyReference>
+      <AssemblyReference>System.Data.SqlClient</AssemblyReference>
+      <AssemblyReference>System.Linq.Expressions</AssemblyReference>
+    </sco:Collection>
+  </TextExpression.ReferencesForImplementation>
+  <Sequence DisplayName="Main Sequence" sap:VirtualizedContainerService.HintSize="851.6,705.6" sap2010:WorkflowViewState.IdRef="Sequence_1">
+    <Sequence.Variables>
+      <Variable x:TypeArguments="sd:DataTable" Default="[New System.Data.DataTable]" Name="ExtractDataTable" />
+    </Sequence.Variables>
+    <sap:WorkflowViewStateService.ViewState>
+      <scg:Dictionary x:TypeArguments="x:String, x:Object">
+        <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+      </scg:Dictionary>
+    </sap:WorkflowViewStateService.ViewState>
+    <uix:NApplicationCard AttachMode="ByInstance" CloseMode="Never" DisplayName="Terrenos Guatemala City  Venta de terrenos y" HealingAgentBehavior="Job" sap:VirtualizedContainerService.HintSize="483.2,682.4" sap2010:WorkflowViewState.IdRef="NApplicationCard_1" ScopeGuid="b302d583-4cab-4bf2-ae35-8b96993feba9" Version="V2">
+      <uix:NApplicationCard.Body>
+        <ActivityAction x:TypeArguments="x:Object">
+          <ActivityAction.Argument>
+            <DelegateInArgument x:TypeArguments="x:Object" Name="WSSessionData" />
+          </ActivityAction.Argument>
+          <Sequence DisplayName="Do" sap:VirtualizedContainerService.HintSize="449.6,392" sap2010:WorkflowViewState.IdRef="Sequence_2">
+            <sap:WorkflowViewStateService.ViewState>
+              <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+                <x:Boolean x:Key="IsPinned">False</x:Boolean>
+              </scg:Dictionary>
+            </sap:WorkflowViewStateService.ViewState>
+            <uix:NExtractData sap2010:Annotation.AnnotationText="" AppendResults="False" ContinueOnError="True" DataTable="[ExtractDataTable]" DisplayName="Extract Table Data 'Extract Table Data'" ExtractDataSettings="&lt;Table xmlns:xsi='http://www.w3.org/2001/XMLSchema-instance' xmlns:xsd='http://www.w3.org/2001/XMLSchema' Type='Structured' AddCvHeader='true' IsScrollEnabled='false'&gt;&#xA;&#x9;&lt;Column xsi:type='DataColumn' ReferenceName='Column0' Name='propietario'&gt;&#xA;&#x9;&#x9;&lt;IsValidName&gt;true&lt;/IsValidName&gt;&#xA;&#x9;&#x9;&lt;ValidationErrorMessage /&gt;&#xA;&#x9;&#x9;&lt;IsExtra&gt;false&lt;/IsExtra&gt;&#xA;&#x9;&#x9;&lt;CanExtractSimilar&gt;true&lt;/CanExtractSimilar&gt;&#xA;&#x9;&#x9;&lt;Format xsi:type='TextColumnFormat' /&gt;&#xA;&#x9;&lt;/Column&gt;&#xA;&#x9;&lt;Column xsi:type='DataColumn' ReferenceName='Column1' Name='precio'&gt;&#xA;&#x9;&#x9;&lt;IsValidName&gt;true&lt;/IsValidName&gt;&#xA;&#x9;&#x9;&lt;ValidationErrorMessage /&gt;&#xA;&#x9;&#x9;&lt;IsExtra&gt;false&lt;/IsExtra&gt;&#xA;&#x9;&#x9;&lt;CanExtractSimilar&gt;true&lt;/CanExtractSimilar&gt;&#xA;&#x9;&#x9;&lt;Format xsi:type='TextColumnFormat' /&gt;&#xA;&#x9;&lt;/Column&gt;&#xA;&#x9;&lt;Column xsi:type='DataColumn' ReferenceName='Column2' Name='ubicacion'&gt;&#xA;&#x9;&#x9;&lt;IsValidName&gt;true&lt;/IsValidName&gt;&#xA;&#x9;&#x9;&lt;ValidationErrorMessage /&gt;&#xA;&#x9;&#x9;&lt;IsExtra&gt;false&lt;/IsExtra&gt;&#xA;&#x9;&#x9;&lt;CanExtractSimilar&gt;true&lt;/CanExtractSimilar&gt;&#xA;&#x9;&#x9;&lt;Format xsi:type='TextColumnFormat' /&gt;&#xA;&#x9;&lt;/Column&gt;&#xA;&#x9;&lt;Column xsi:type='DataColumn' ReferenceName='Column3' Name='descripcion '&gt;&#xA;&#x9;&#x9;&lt;IsValidName&gt;true&lt;/IsValidName&gt;&#xA;&#x9;&#x9;&lt;ValidationErrorMessage /&gt;&#xA;&#x9;&#x9;&lt;IsExtra&gt;false&lt;/IsExtra&gt;&#xA;&#x9;&#x9;&lt;CanExtractSimilar&gt;true&lt;/CanExtractSimilar&gt;&#xA;&#x9;&#x9;&lt;Format xsi:type='TextColumnFormat' /&gt;&#xA;&#x9;&lt;/Column&gt;&#xA;&#x9;&lt;Column xsi:type='DataColumn' ReferenceName='Column4' Name='descripcion 2'&gt;&#xA;&#x9;&#x9;&lt;IsValidName&gt;true&lt;/IsValidName&gt;&#xA;&#x9;&#x9;&lt;ValidationErrorMessage /&gt;&#xA;&#x9;&#x9;&lt;IsExtra&gt;false&lt;/IsExtra&gt;&#xA;&#x9;&#x9;&lt;CanExtractSimilar&gt;true&lt;/CanExtractSimilar&gt;&#xA;&#x9;&#x9;&lt;Format xsi:type='TextColumnFormat' /&gt;&#xA;&#x9;&lt;/Column&gt;&#xA;&#x9;&lt;Column xsi:type='DataNextLink' /&gt;&#xA;&lt;/Table&gt;" ExtractMetadata="&lt;extract&gt;&lt;row exact='1'&gt;&lt;webctrl tag='div' idx='2' /&gt;&lt;webctrl tag='div' /&gt;&lt;webctrl tag='div' idx='2' /&gt;&lt;webctrl tag='a' idx='1' /&gt;&lt;/row&gt;&lt;column exact='1' name='Column0' attr='fulltext'&gt;&lt;webctrl tag='div' idx='2' /&gt;&lt;webctrl tag='div' /&gt;&lt;webctrl tag='div' idx='2' /&gt;&lt;webctrl tag='a' idx='1' /&gt;&lt;webctrl tag='div' idx='1' /&gt;&lt;webctrl tag='span' idx='1' /&gt;&lt;/column&gt;&lt;column exact='1' name='Column1' attr='fulltext'&gt;&lt;webctrl tag='div' idx='2' /&gt;&lt;webctrl tag='div' /&gt;&lt;webctrl tag='div' idx='2' /&gt;&lt;webctrl tag='a' idx='1' /&gt;&lt;webctrl tag='div' idx='4' /&gt;&lt;/column&gt;&lt;column exact='1' name='Column2' attr='fulltext'&gt;&lt;webctrl tag='div' idx='2' /&gt;&lt;webctrl tag='div' /&gt;&lt;webctrl tag='div' idx='2' /&gt;&lt;webctrl tag='a' idx='1' /&gt;&lt;webctrl tag='div' idx='2' /&gt;&lt;/column&gt;&lt;column exact='1' name='Column3' attr='fulltext'&gt;&lt;webctrl tag='div' idx='2' /&gt;&lt;webctrl tag='div' /&gt;&lt;webctrl tag='div' idx='2' /&gt;&lt;webctrl tag='a' idx='1' /&gt;&lt;webctrl tag='span' idx='1' /&gt;&lt;/column&gt;&lt;column exact='1' name='Column4' attr='fulltext'&gt;&lt;webctrl tag='div' idx='2' /&gt;&lt;webctrl tag='div' /&gt;&lt;webctrl tag='div' idx='2' /&gt;&lt;webctrl tag='a' idx='1' /&gt;&lt;webctrl tag='div' idx='3' /&gt;&lt;/column&gt;&lt;/extract&gt;" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="416,189.6" sap2010:WorkflowViewState.IdRef="NExtractData_1" LimitExtractionTo="None" MaximumResults="0" ScopeIdentifier="b302d583-4cab-4bf2-ae35-8b96993feba9" Version="V5">
+              <uix:NExtractData.NextLink>
+                <uix:TargetAnchorable CVScreenId="df76e9e2-b8e2-48e4-afe6-b6be5c07b529" CvTextArea="1410, 517, 98, 25" CvTextArgument="Siguiente" CvType="Text" DesignTimeRectangle="1412, 514, 96, 31" ElementType="Text" ElementVisibilityArgument="Interactive" FullSelectorArgument="&lt;webctrl aaname='Siguiente' css-selector='body&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;a&amp;gt;span' parentid='currentlistings' tag='SPAN' /&gt;" FuzzySelectorArgument="&lt;webctrl aaname='Siguiente' type='' parentid='currentlistings' tag='SPAN' class='d3-pagination__arrow--text' matching:aaname='fuzzy' fuzzylevel:aaname='0.0' matching:parentid='fuzzy' fuzzylevel:parentid='0.0' matching:class='fuzzy' fuzzylevel:class='0.0' check:text='Siguiente' /&gt;" Guid="26bf273f-a73c-4b1a-ae2c-33b2f019d6ed" ScopeSelectorArgument="&lt;html app='brave.exe' title='Terrenos Guatemala City | Venta de terrenos y lotes en Guatemala City' /&gt;" SearchSteps="Selector, CV" Version="V6" WaitForReadyArgument="Interactive">
+                  <uix:TargetAnchorable.PointOffset>
+                    <uix:PointOffset X="0" Y="0" />
+                  </uix:TargetAnchorable.PointOffset>
+                </uix:TargetAnchorable>
+              </uix:NExtractData.NextLink>
+              <uix:NExtractData.Target>
+                <uix:TargetAnchorable ContentHash="wlMLh_rL0USOCKIkBezmmg" DesignTimeRectangle="586, -1667, 1237, 6646" ElementVisibilityArgument="Interactive" FullSelectorArgument="&lt;webctrl id='currentlistings' tag='DIV' /&gt;" Guid="66defb2d-5182-40e9-a996-f40c18f89286" InformativeScreenshot="b199d41cf98fe3f0b1ab8c2e209634ec.png" Reference="sAP1KA3hU0yWDRs4ElpgSA/iNfShleXpU-0Vs97aoA-9w" ScopeSelectorArgument="&lt;html app='brave.exe' title='Terrenos Guatemala City | Venta de terrenos y lotes en Guatemala City' /&gt;" SearchSteps="Selector" Version="V6" WaitForReadyArgument="Interactive" />
+              </uix:NExtractData.Target>
+              <sap:WorkflowViewStateService.ViewState>
+                <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                  <x:Boolean x:Key="IsAnnotationDocked">False</x:Boolean>
+                </scg:Dictionary>
+              </sap:WorkflowViewStateService.ViewState>
+            </uix:NExtractData>
+            <ui:WriteRange StartingCell="{x:Null}" WorkbookPathResource="{x:Null}" DataTable="[ExtractDataTable]" DisplayName="Write Range Workbook" sap:VirtualizedContainerService.HintSize="416,140.8" sap2010:WorkflowViewState.IdRef="WriteRange_1" SheetName="Sheet1" WorkbookPath="C:\inge\SOG22S25_199817948\SOG22S25_200418365\proyecto\terrenos.xls" />
+          </Sequence>
+        </ActivityAction>
+      </uix:NApplicationCard.Body>
+      <uix:NApplicationCard.TargetApp>
+        <uix:TargetApp Area="-9, -9, 1938, 1038" ContentHash="UMJS8DSO8Umn1xpYKYPPig" FilePath="C:\Program Files\BraveSoftware\Brave-Browser\Application\brave.exe" IconBase64="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" InformativeScreenshot="fcea7d819275c14a50f0ddba5973a9dc.png" Reference="sAP1KA3hU0yWDRs4ElpgSA/DYZrU2BlXk2H-OnOvPo6bQ" Selector="&lt;html app='brave.exe' title='Terrenos Guatemala City | Venta de terrenos y lotes en Guatemala City' /&gt;" Version="V2" />
+      </uix:NApplicationCard.TargetApp>
+    </uix:NApplicationCard>
+  </Sequence>
+</Activity>
