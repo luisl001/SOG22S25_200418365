@@ -1,12 +1,12 @@
 {
-  "name": "leer de una web",
-  "projectId": "9b110798-f92d-4e1b-b777-f251e4073970",
-  "description": "ejercicio para el proyecto\r\n",
+  "name": "archivos_dirrectorios",
+  "projectId": "a3899f27-84b3-45e7-aec7-6c6b1131a2af",
+  "description": "revision de carpetas archivos y hojas",
   "main": "Main.xaml",
   "dependencies": {
     "UiPath.Excel.Activities": "[3.2.1]",
-    "UiPath.System.Activities": "[25.8.1]",
-    "UiPath.UIAutomation.Activities": "[25.10.16]"
+    "UiPath.GSuite.Activities": "[3.4.10]",
+    "UiPath.System.Activities": "[25.8.1]"
   },
   "webServices": [],
   "entitiesStores": [],
@@ -47,7 +47,7 @@
   "entryPoints": [
     {
       "filePath": "Main.xaml",
-      "uniqueId": "8fbe23aa-0809-4607-bb3a-79c73e2060b7",
+      "uniqueId": "fd1cd368-e165-44f2-a7e6-6351aef5730f",
       "input": [],
       "output": []
     }
