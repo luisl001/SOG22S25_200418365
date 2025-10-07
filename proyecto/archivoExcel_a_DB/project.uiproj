@@ -1,0 +1,6 @@
+{
+  "Name": "archivoExcel a DB",
+  "ProjectType": "Process",
+  "Description": "copiar la informacion de un archivo excel a una base de datos local",
+  "MainFile": "Main.xaml"
+}
